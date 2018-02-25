@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>地铁票价计算</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="xy-subway-bord">
+			<div class="xy-subway-main">
+				<div class="xy-subway-box xy-subway-box-start">
+					<div class="xy-subway-line xy-subway-hieracchy">
+						<em>起始站</em>
+						<span class="xy-subway-k"></span>
+						<ul class="xy-subway-ul">
+							
+						</ul>
+					</div>
+					<p class="xy-subway-jp">-</p>
+					<div class="xy-subway-station xy-subway-hieracchy">
+						<span class="xy-subway-k"></span>
+						<em class="xy-subway-hieracchy-start">选择车站</em>
+						<ul class="xy-subway-ulk"></ul>
+					</div>
+				</div>
+				<div class="xy-subway-box xy-subway-box-end">
+					<div class="xy-subway-line">
+						<em>终点站</em>
+						<span class="xy-subway-k"></span>
+						<ul class="xy-subway-ul">
+							
+						</ul>
+					</div>
+					<p class="xy-subway-jp">-</p>
+					<div class="xy-subway-station xy-subway-station-end">
+						<span class="xy-subway-k"></span>
+						<em class="xy-subway-hieracchy-start">选择车站</em>
+						<ul class="xy-subway-ulk"></ul>
+					</div>
+				</div>
+				<div class="xy-subway-clearfix">
+					<span class="xy-subway-cale-false">开始查询</span>
+					<span class="xy-subway-ts"></span>
+				</div>
+				<div class="xy-subway-tab">
+					<ul>
+						<li class="xy-subway-li xy-subway-on">票价</li>
+					</ul>
+				</div>
+			</div>
+			<div class="xy-subway-footer">
+				<div class="xy-subway-content xy-subway-content2">
+					<div class="xy-subway-text">
+						<p class="xy-subway-title">起步价2元，可乘坐4公里</br>
+
+之后按照递远递减原则，4至12公里范围内，每递增4公里增加1元；</br>
+
+12至24公里范围内，每递增6公里增加1元；</br>
+
+24至40公里范围内，每递增8公里增加1元；</br>
+
+40至50公里范围内，每递增10公里增加1元，</br>
+
+超过50公里之后，每递增20公里增加1元。</p>
+						<div class="xy-subway-fareinfo">
+							<p class="xy-subway-p xy-subway-spacing"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Dijkstra.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cdsubway.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

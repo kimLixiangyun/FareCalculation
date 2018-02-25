@@ -1,0 +1,275 @@
+.xy-subway-bord ul,.xy-subway-bord li,.xy-subway-bord p{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.xy-subway-bord{
+	height: auto;
+	border: 1px solid #666;
+	width:275px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.xy-subway-main{
+	height: 125px;
+	padding: 0 10px;
+	position: relative;
+}
+
+.xy-subway-box{
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 15px;
+	width: 275px;
+}
+
+.xy-subway-line{
+	cursor: pointer;
+	outline-style: none;
+	width: 100px;
+	height: 24px;
+	columns: #aaa;
+	line-height: 24px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	position: relative;
+}
+
+.xy-subway-line em{
+	font-style: normal;
+	font-size: 13px;
+	color: #333;
+	padding-left: 7px;
+}
+
+.xy-subway-line em span{
+	display: block;
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	left: 8px;
+	top: 8px;
+}
+.xy-subway-ul{
+	background: #fff;
+	z-index: 999;
+	height: 188px;
+	display: none;
+	position: absolute;
+	border: 1px solid #bbb;
+	top: 24px;
+	width: 100px;
+	left: -1px;
+	overflow-y: scroll;
+}
+
+.xy-subway-ul li{
+	cursor: pointer;
+	background: #FFFFFF;
+	width: 103px;
+	height: 31px;
+	list-style: none;
+	line-height: 31px;
+	color: #333333;
+	padding-left: 22px;
+	position: relative;
+	font-size: 13px;
+}
+
+.xy-subway-ul  li span{
+	display: block;
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	left: 8px;
+	top: 11px;
+}
+
+.xy-subway-jp{
+	width: 20px;
+	float: left;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #ccc;
+}
+
+.xy-subway-station{
+	cursor: pointer;
+	width: 100px;
+	height: 24px;
+	line-height: 24px;
+	columns: #aaa;
+	border: 1px solid #dbdbdb;
+	float: left;
+	position: relative;
+	background: #f7f7f7;
+}
+
+.xy-subway-k{
+	width: 25px;
+	height: 23px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid #bbb;
+	background: url("http://imgbdb2.bendibao.com/images/icons.jpg") no-repeat center center;
+}
+
+.xy-subway-station em{
+	font-style: normal;
+	font-size: 13px;
+	padding: 0 5px;
+}
+
+.xy-subway-ulk{
+	z-index: 999;
+	display: none;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 24px;
+	left: -1px;
+	border: 1px solid #bbb;
+	background: #fff;
+}
+
+.xy-subway-ulk li{
+	cursor: pointer;
+	backface-visibility: #fff;
+	list-style: none;
+	width: 85px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	padding-left: 12px;
+	color: #333333;
+	font-size: 13px;
+}
+.xy-subway-box-end{
+	clear: both;
+}
+
+.xy-subway-cale-false{
+	position: absolute;
+	left: 10px;
+	display: inline-block;
+	cursor: pointer;
+	color: #b8b8b8;
+	background: #f5f5f5;
+	border: 1px solid#dbdbdb;
+	width: 80px;
+	height: 25px;
+	margin-top: 12px;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 13px;
+}
+
+.xy-subway-cale-fare{
+	border: 0;
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+	width: 80px;
+	height: 25px;
+	background: #3188ff;
+	margin-top: 12px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	font-size: 13px;
+}
+.xy-subway-ts{
+	font-size: 13px;
+	position: absolute;
+	left: 50px;
+	bottom: 23px;
+	display: none;
+}
+
+.xy-subway-tab{
+	margin-top: 54px;
+	height: 28px;
+	border-bottom: 1px solid #d9d9d9;
+	background: #fafafa;
+	display: none;
+	width: 100%;
+}
+
+.xy-subway-on{
+	list-style: none;
+	border-right: 1px solid #dedede;
+	border-left: 1px solid #DEDEDE;
+	border-top:2px solid #2b99ff;
+	color: #333333;
+	border-bottom: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	z-index: 0;
+	width: 90px;
+}
+
+.xy-subway-li{
+	border-left: 1px solid #FFFFFF;
+	list-style: none;
+	width: 180px;
+	float: left;
+	height: 26px;
+	text-align: center;
+	line-height: 28px;
+	color: #666666;
+	font-size: 13px;
+	background: #fafafa;
+}
+
+.xy-subway-footer{
+	display: none;
+	overflow: hidden;
+	height: auto;
+	padding-top: 12px;
+	width: 100%;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.xy-subway-text{
+	margin: 0 auto;
+	clear: both;
+	padding: 0 2.5%;
+}
+
+.xy-subway-title{
+	line-height: 16px;
+	font-size: 13px;
+	color: #666;
+}
+
+.xy-subway-increase{
+	color: #f50;
+	font: inherit;
+	font-weight: 700;
+}
+
+.xy-subway-one{
+	background: #cd0000;
+}
+
+.xy-subway-two{
+	background: #cd0000;
+}
+.xy-subway-three{
+	background: #cdfe00;
+}
+.xy-subway-four{
+	background: #cd0000;
+}
+.xy-subway-seven{
+	background: #cd0000;
+}
+.xy-subway-ten{
+	background: #cd0000;
+}
